@@ -1,8 +1,9 @@
+import Header from "./assets/components/Header/Header";
 
 export default function App() {
   return (
-    <div>
-      
+    <div className="">
+      <Header/>
     </div>
   )
 }

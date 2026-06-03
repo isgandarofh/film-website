@@ -1,0 +1,38 @@
+.header {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerMenu {
+  background-color: #0f0f0f;
+  border: 4px solid #1f1f1f;
+  border-radius: 12px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.headerMenu a {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #bfbfbf;
+}
+
+.headerAction {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+:global(.active) {
+  color: #FFFFFF !important;
+  padding: 10px 20px ;
+  background-color: #1A1A1A;
+  border-radius: 8px;
+}
