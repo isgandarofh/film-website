@@ -1,0 +1,61 @@
+.firstSection {
+  background: url(../../../../public//img/Sub\ Container.png);
+  margin-top: -100px;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.sectionText {
+  position: relative;
+  bottom: -190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionText h1 {
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sectionText p {
+  padding-top: 15px;
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #999999;
+  max-width: 980px;
+}
+
+.sectionText button {
+    margin-top: 40px;
+    padding: 18px 24px;
+    background-color: #E50000;
+    border: none;
+    border-radius: 8px;
+
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
