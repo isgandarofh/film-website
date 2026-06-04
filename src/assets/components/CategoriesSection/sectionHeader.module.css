@@ -1,0 +1,74 @@
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerText h3 {
+  font-family: Manrope;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 35px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.headerText p {
+  padding-top: 10px;
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.headerBtn {
+  padding: 10px 5px;
+  background-color: #0f0f0f;
+  border-radius: 12px;
+  border: 1px solid #1f1f1f;
+}
+
+.headerBtn {
+  display: flex;
+  align-items: center;
+}
+
+.arrBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #1a1a1a;
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+.arrBtn img {
+  width: 20px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.pageLine {
+  width: 16px;
+  height: 4px;
+  border-radius: 100px;
+  background-color: #333333;
+}
+
+.pageLineActive {
+  width: 23px;
+  height: 4px;
+  opacity: 1;
+  border-radius: 100px;
+  background-color: #e50000;
+}

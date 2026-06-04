@@ -1,11 +1,9 @@
-import FirstSection from "./assets/components/FirstSection/FirstSection";
-import Header from "./assets/components/Header/Header";
+import Home from "./assets/Page/Home";
 
 export default function App() {
   return (
     <div className="">
-      <Header/>
-      <FirstSection/>
+      <Home/>
     </div>
   )
 }
