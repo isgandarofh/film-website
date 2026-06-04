@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/Header/Header'
 import FirstSection from '../components/FirstSection/FirstSection'
 import CategoriesSection from '../components/CategoriesSection/CategoriesSection'
