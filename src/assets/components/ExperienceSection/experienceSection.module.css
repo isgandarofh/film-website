@@ -1,0 +1,83 @@
+.sectionHeader h3 {
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.sectionHeader p {
+  padding-top: 5px;
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+  padding-right: 200px;
+}
+
+.experienceSection {
+  padding: 90px 0px;
+}
+
+.experienceCards{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.experienceCard {
+  padding: 35px;
+  background: linear-gradient(
+    225deg,
+    rgba(229, 0, 0, 0.08) 0%,
+    rgba(229, 0, 0, 0.02) 25%,
+    #0f0f0f 60%
+  );
+  max-width: 405px;
+  border-radius: 12px;
+  border: 1px solid #262626;
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cardIcon {
+  background-color: #141414;
+  border-radius: 12px;
+  border: 1px solid #1f1f1f;
+  padding: 20px;
+  max-width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardIcon img {
+  width: 20px;
+}
+
+.cardTitle p {
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.cardText p {
+    padding-top: 25px;
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}

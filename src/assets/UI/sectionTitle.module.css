@@ -1,0 +1,18 @@
+.sectionTitle h3 {
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.sectionTitle p {
+  padding-top: 5px;
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
