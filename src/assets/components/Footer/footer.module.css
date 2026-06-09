@@ -1,0 +1,38 @@
+footer {
+  background-color: #0f0f0f;
+  padding: 80px;
+}
+
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footerTop ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footerTop .menuHeaderText {
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.footerTop ul li {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #a6a6a6;
+  cursor: pointer;
+}

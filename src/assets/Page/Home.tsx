@@ -5,6 +5,7 @@ import ExperienceSection from '../components/ExperienceSection/ExperienceSection
 import QuestionsSection from '../components/QuestionsSection/QuestionsSection'
 import PlanSection from '../components/PlanSection/PlanSection'
 import BannerSection from '../components/BannerSection/BannerSection'
+import Footer from '../components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <QuestionsSection />
       <PlanSection />
       <BannerSection/>
+      <Footer/>
     </div>
   )
 }

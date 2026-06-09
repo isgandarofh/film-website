@@ -112,6 +112,7 @@
   line-height: 150%;
   letter-spacing: 0%;
   color: #fff;
+  cursor: pointer;
 }
 
 .cardButtons button:first-child {
