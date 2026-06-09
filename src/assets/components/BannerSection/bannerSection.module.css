@@ -1,0 +1,27 @@
+.bannerSection {
+  padding: 40px 0px;
+}
+
+.bannerInner {
+  padding: 80px;
+  background: url("../../../../public/img/Background Images.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannerButton button {
+  padding: 15px 20px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  background-color: #e50000;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}

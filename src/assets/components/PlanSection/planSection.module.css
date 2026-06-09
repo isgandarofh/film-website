@@ -1,0 +1,125 @@
+.planSection {
+  padding-top: 100px;
+}
+
+.active {
+  color: #fff !important;
+  padding: 10px 15px;
+  background-color: #1a1a1a !important;
+  border-radius: 8px;
+}
+
+.planFilter {
+  padding: 5px 12px;
+  border-radius: 10px;
+  border: 1px solid #262626;
+  background-color: #0f0f0f;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.planFilter button {
+  background-color: transparent;
+  border: none;
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+  cursor: pointer;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planCards {
+  padding: 70px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.planCard {
+  padding: 40px;
+  max-width: 405px;
+  border-radius: 12px;
+  border: 1px solid #262626;
+  background-color: #1a1a1a;
+}
+
+.cardTitle h5 {
+  font-family: Manrope;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.cardTitle p {
+  padding-top: 14px;
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.cardPrice {
+  padding-top: 40px;
+  display: flex;
+  align-items: last baseline;
+}
+
+.cardPrice h6 {
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 73%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.cardPrice span {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 73%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.cardButtons {
+  padding-top: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.cardButtons button {
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.cardButtons button:first-child {
+  border:none;
+  background-color: #141414;
+}
+
+.cardButtons button:last-child {
+  background-color: #e50000;
+  border: none;
+}
