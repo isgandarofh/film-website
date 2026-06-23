@@ -102,6 +102,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  max-width: 920px;
 }
 
 .descriptionBox {
@@ -139,7 +140,7 @@
   padding: 50px;
 }
 
-.boxHeader{
+.boxHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -155,15 +156,13 @@
   color: #999999;
 }
 
-.headerRight{
+.headerRight {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
-
-
-.arrBox{
+.arrBox {
   background-color: #141414;
   border: 1px solid #262626;
   border-radius: 50%;
@@ -175,14 +174,194 @@
   cursor: pointer;
 }
 
-.images{
+.images {
   margin-top: 30px;
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.images img{
+.images img {
   border-radius: 12px;
   max-width: 100px;
+}
+
+.commentsBox {
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  border-radius: 13px;
+  padding: 50px;
+}
+
+.headerRight button {
+  padding: 15px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 17px;
+  line-height: 153%;
+  letter-spacing: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.commentBoxes {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.commentBox {
+  border-radius: 12px;
+  padding: 40px;
+  background-color: #0f0f0f;
+  border: 1px solid #262626;
+  max-width: 430px;
+}
+
+.boxHeader h2 {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.ratingStarBox {
+  background-color: #141414;
+  border-radius: 50px;
+  border: 1px solid #262626;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ratingStarBox p {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.commentParagraph p {
+  padding-top: 20px;
+  font-family: Manrope;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.contentRight {
+  padding: 50px;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 350px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.title p {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+
+.year h3 {
+  padding-top: 15px;
+  font-family: Manrope;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 19px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.textBoxes {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.textBox {
+  width: fit-content;
+  padding: 8px 10px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.ratingBox {
+  border-radius: 8px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  padding: 15px;
+  width: fit-content;
+}
+
+.ratingBox h4 {
+  font-family: Manrope;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+.ratingBoxes{
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.ratingStarBoxRight {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ratingStarBoxRight p {
+  font-family: Manrope;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #fff;
 }
